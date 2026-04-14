@@ -1,0 +1,35 @@
+Package: fecrtsim
+Title: Simulation of Faecal Egg Count Reduction Tests in Livestock
+Version: 0.1.0-1
+Date: 2026-04-14
+Description: What the package does (one paragraph).
+Authors@R:
+  c(
+    person(given="Matt", family="Denwood", email="md@sund.ku.dk", role=c("aut", "cre")),
+    person(given="Mackenzie", family="Smith", email="Mackenzie.Smith@uky.edu", role=c("ctb"))
+  )    
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+  R (>= 4.1.0)
+Imports:
+  Rcpp,
+  bayescount,
+  rlang,
+  dplyr,
+  tibble
+Suggests: 
+  knitr,
+  rmarkdown,
+  spelling,
+  testthat (>= 3.0.0)
+LinkingTo: 
+    Rcpp,
+    bayescount
+SystemRequirements:
+  C++20
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Language: en-GB
