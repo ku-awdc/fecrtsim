@@ -26,8 +26,8 @@ Suggests:
   spelling,
   testthat (>= 3.0.0)
 LinkingTo: 
-    Rcpp,
-    bayescount
+  Rcpp,
+  bayescount
 SystemRequirements:
   C++20
 Config/testthat/edition: 3
