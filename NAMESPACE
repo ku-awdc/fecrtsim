@@ -2,6 +2,7 @@
 
 S3method(print,ExampleClass)
 export(example_function)
+export(fecrt_sim)
 import(Rcpp)
 importFrom(dplyr,mutate)
 importFrom(rlang,.data)
