@@ -7,7 +7,15 @@
 fecrt_sim(n_animals)
 }
 \arguments{
-\item{n_animals}{the number of animals to simulate}
+\item{n_sim}{the number of FECRT to simulate}
+
+\item{design}{either paired or unpaired}
+
+\item{n_treatment}{the number of animals in the treatment group}
+
+\item{n_control}{the number of animals in the control group (ignored for paired design)}
+
+\item{n_pools}{the number of pooled samples}
 }
 \description{
 Title
