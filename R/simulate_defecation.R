@@ -39,6 +39,8 @@ simulate_defecation <- function(rho_0=1.2, loghaz_0=-5.6, rho_1=2.6, loghaz_1=-1
   scale_0 <- exp(loghaz_0) ^ (-1.0 / rho_0)
   scale_1 <- exp(loghaz_1) ^ (-1.0 / rho_1)
 
+  if(length(scale_0)>1 || length(scale_1)>1) stop("Non-1-length parameters is not yet implemented")
+
   animals <- str_c("A", seq_len(N) |> format() |> str_replace_all(" ", "0"))
 
   map(animals,
