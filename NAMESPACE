@@ -6,18 +6,22 @@ export(fecrt_sim)
 export(group_defecation)
 export(simulate_defecation)
 import(Rcpp)
-importFrom(dplyr,bind_rows)
-importFrom(dplyr,count)
-importFrom(dplyr,group_by)
-importFrom(dplyr,mutate)
-importFrom(dplyr,rename)
-importFrom(dplyr,row_number)
-importFrom(dplyr,ungroup)
+importFrom(dplyr,
+  bind_rows,
+  count,
+  group_by,
+  mutate,
+  rename,
+  row_number,
+  ungroup
+)
 importFrom(forcats,fct)
 importFrom(purrr,map)
 importFrom(rlang,.data)
-importFrom(stringr,str_c)
-importFrom(stringr,str_replace_all)
+importFrom(stringr,
+  str_c,
+  str_replace_all
+)
 importFrom(tibble,tibble)
 importFrom(tidyr,complete)
 useDynLib(fecrtsim, .registration = TRUE)

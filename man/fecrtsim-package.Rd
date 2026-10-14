@@ -29,6 +29,11 @@ Some article that you might want users to look at
 \author{
 \strong{Maintainer}: Matt Denwood \email{md@sund.ku.dk}
 
+Authors:
+\itemize{
+  \item Matt Denwood \email{md@sund.ku.dk}
+}
+
 Other contributors:
 \itemize{
   \item Mackenzie Smith \email{Mackenzie.Smith@uky.edu} [contributor]
